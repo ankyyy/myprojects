@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>City Directory</title>
+		<meta name="description" content="Perspective Page View Navigation: Transforms the page in 3D to reveal a menu" />
+		<meta name="keywords" content="3d page, menu, navigation, mobile, perspective, css transform, web development, web design" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<!-- csstransforms3d-shiv-cssclasses-prefixed-teststyles-testprop-testallprops-prefixes-domprefixes-load --> 
+		<script src="js/modernizr.custom.25376.js"></script>
+	</head>
+	<body>
+		<div id="perspective" class="perspective effect-movedown">
+			<div class="container">
+				<div class="wrapper"><!-- wrapper needed for scroll -->
+					<!-- Top Navigation -->
+					<div class="codrops-top clearfix">
+							</div>
+					<header class="codrops-header">
+						<h1>City Directory <span>Search </span></h1>	
+					</header>
+					<div class="main clearfix">
+						<div class="column">
+							<p><button id="showMenu">Start</button></p>
+							<p>Click on this button to get started...</p>
+						</div>
+						<div class="column">
+							<nav class="codrops-demos">
+								<a href="home.html">Add</a>
+								<!--<a href="index2.html"></a>-->
+								<!--<a href="index3.html">Rotate Left</a>-->
+								<a href="home2.html" class="current-demo">Search</a>
+								<!--<a href="index5.html">Rotate Top</a>-->
+								<!--<a href="index6.html">Lay Down</a>-->
+							</nav>
+						</div>
+						<div class="related">
+							<p>Created By:</p>
+							<p>Ankit Mishra,Paritosh Mankoti,Ritesh,Ajit</p>
+							</div>
+					</div><!-- /main -->
+				</div><!-- wrapper -->
+			</div><!-- /container -->
+			<nav class="outer-nav top horizontal">
+				<a href="home2.html" class="icon-home">Home</a>
+				<a href="searchhotel.html" class="icon-news">Hotels</a>
+				<a href="searchautomobile.html" class="icon-image">Automobiles</a>
+				<a href="search.html" class="icon-upload">Individual</a>
+				<!--<a href="#" class="icon-star">Favorites</a>-->
+				<!--<a href="#" class="icon-mail">Messages</a>-->
+				<!--<a href="#" class="icon-lock">Security</a>-->
+			</nav>
+		</div><!-- /perspective -->
+		<script src="js/classie.js"></script>
+		<script src="js/menu.js"></script>
+	</body>
+</html>
